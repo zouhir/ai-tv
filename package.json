@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "pwa export",
+    "start": "sirv build -s",
+    "watch": "pwa watch"
+  },
+  "dependencies": {
+    "ganalytics": "latest",
+    "preact": "latest",
+    "sirv-cli": "latest"
+  },
+  "devDependencies": {
+    "@pwa/cli": "latest",
+    "@pwa/preset-preact": "latest"
+  }
+}
