@@ -1,0 +1,29 @@
+.progressbar {
+    width: 100%;
+    position: relative;
+}
+.progress {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    height: 4px;
+    border-radius: 1px;
+}
+
+.progress::-webkit-progress-bar {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.progress::-webkit-progress-value {
+    background: #FF1B1B;
+}
+.knob {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    border-radius: 50%;
+}

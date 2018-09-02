@@ -1,0 +1,46 @@
+.player {
+    width: 100%;
+    max-width: 1100px;
+    position: relative;
+    z-index: 99;
+}
+
+.player video {
+    width: 100%;
+    display: block; /* so the wrapper has no couple pixels at the bottom */
+}
+
+
+.controls {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    background-image: linear-gradient(-180deg, rgba(0,0,0,0.00) 24%, rgba(0,0,0,0.64) 96%);
+}
+
+.controls button {
+    border: none;
+    background: transparent;
+}
+
+.controls button svg {
+    width: 20px;
+    float: left;
+}
+
+.play {
+    WIDTH: 25px;
+}
+.progressWrapper {
+    width: 100%;
+}
+
+.buttonsWrapper {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
